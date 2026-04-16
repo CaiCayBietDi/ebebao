@@ -7,17 +7,6 @@ import { TimelineCard, TimelineEventData } from './TimelineCard';
 const EVENTS: TimelineEventData[] = [
   {
     id: 1,
-    time: '19/05/2025',
-    icon: '☕',
-    title: 'Lần đầu đi riêng với nhau',
-    description:
-      'Buổi đầu tiên anh có dũng khí để rủ một người bạn mà trước đó chẳng thân mấy để đi cùng, lúc đó lấy ảnh này cho mấy bả xem thì còn bị hỏi là có ý gì với em không',
-    defaultNote: 'Nhấn ✏️ để thêm ghi chú về buổi sáng tuyệt vời này...',
-    defaultImage: '/img/dora.jpg', // Sửa ở đây
-    accentColor: '#e879a0',
-  },
-  {
-    id: 2,
     time: '03/03/2026',
     icon: '🌸',
     title: 'First date',
@@ -28,7 +17,7 @@ const EVENTS: TimelineEventData[] = [
     accentColor: '#a78bfa',
   },
   {
-    id: 3,
+    id: 2,
     time: '14/03/2026',
     icon: '🌹',
     title: 'Ngỏ ý tìm hiểu',
@@ -39,7 +28,7 @@ const EVENTS: TimelineEventData[] = [
     accentColor: '#f472b6',
   },
   {
-    id: 5, // ID nên để theo thứ tự 4, bạn có thể chỉnh lại id: 4 ở đây nếu muốn
+    id: 4, // ID nên để theo thứ tự 4, bạn có thể chỉnh lại id: 4 ở đây nếu muốn
     time: '05/04/2026',
     icon: '🕯️',
     title: 'Yêu xa',
@@ -50,7 +39,7 @@ const EVENTS: TimelineEventData[] = [
     accentColor: '#d4a843',
   },
   {
-    id: 4, // Và id: 5 ở đây
+    id: 3, // Và id: 5 ở đây
     time: '04/04/2026',
     icon: '✨',
     title: 'Lần đầu đi chung như cảm giác Người yêu',
