@@ -522,7 +522,7 @@ export function ConfessionSection() {
                         textShadow: '0 0 20px rgba(232,121,160,0.8)',
                       }}
                     >
-                      Anh hạnh phúc lắm! 💖
+                      Yeahhh có người yêu rồi 💖
                     </h3>
                     
                     <p
